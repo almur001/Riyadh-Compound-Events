@@ -4,7 +4,7 @@
 This repository was developed for Alissa Murray's Master's Thesis, "Mapping Resilience to Compound Events in a Global Metropolis: A Case Study of Riyadh, Saudi Arabia". It contains a set of Jupyter notebooks analyzing extreme heat, precipitation, and compound events using ERA5 reanalysis data (2014–2024) for Riyadh, Saudi Arabia. The analysis includes threshold-based detection, seasonal breakdowns, geospatial heatmaps, and time-lag pairing of events.
 
 ## 📂 Notebooks
-**1. FinalPrecip_April2025.ipynb**
+**1. Complete Precipitation Analysis.ipynb**
 
 Focus: Analyzes daily precipitation data from ERA5 and extracts:
 
@@ -30,7 +30,7 @@ Key Outputs:
 📄 CSVs summarizing extreme rainfall days and percentiles
 
 
-**2. FINAL_Temp_April25_Set2.ipynb**
+**2. Complete Temp Analysis.ipynb**
 
 Focus: Analyzes 2m daily max temperatures and detects heatwaves based on the 95th percentile rule (≥3 consecutive days).
 
@@ -53,10 +53,10 @@ Key Outputs:
 
 📄 CSVs of heatwave peaks and metadata
 
-**3. FINAL_compoundevents-April25.ipynb**
+**3. Complete CE Analysis.ipynb**
 
 Focus: Integrates temperature and precipitation data to identify compound events defined as:
-"The last major spring rainfall event followed by the first major summer heatwave."
+"The most intense rainfall event of the year followed by the first subsequent heatwave (within the same calendar year)"
 
 Key Features:
 
